@@ -1,9 +1,7 @@
 #include <iostream>
 #include "ColorPair.h"
 
-namespace TelCoColorCoder
-{
-    const char *MajorColorNames[] = {
+const char *MajorColorNames[] = {
         "White", "Red", "Black", "Yellow", "Violet"};
     int numberOfMajorColors =
         sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
@@ -12,6 +10,8 @@ namespace TelCoColorCoder
     int numberOfMinorColors =
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
+namespace TelCoColorCoder
+{
     ColorPair::ColorPair(MajorColor major, MinorColor minor) : majorColor(major), minorColor(minor)
     {
     }

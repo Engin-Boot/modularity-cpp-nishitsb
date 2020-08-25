@@ -1,7 +1,7 @@
 #include "ColorCoding.h"
 #include "ColorPair.h"
 
-void colorCodingManual()
+void printColorCodingManual()
 {
 
     std::cout << "\nColor Coding Manual\n" << std::endl;
