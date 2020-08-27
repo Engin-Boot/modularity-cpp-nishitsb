@@ -1,8 +1,7 @@
-#include <iostream>
 #include <assert.h>
 #include "ColorPair.h"
 #include "Tests.h"
-#include "ColorCoding.h"
+#include "getColorCodingManual.h"
 
 int main() {
 
@@ -12,7 +11,7 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
-    printColorCodingManual();
+    std::cout << getColorCodingManual();
 
     return 0;
 }
