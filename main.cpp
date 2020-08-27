@@ -1,6 +1,6 @@
 #include <assert.h>
 #include "ColorPair.h"
-#include "Tests.h"
+#include "tests.h"
 #include "getColorCodingManual.h"
 
 int main() {
