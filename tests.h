@@ -1,15 +1,17 @@
 #ifndef TESTS_H
 #define TESTS_H
 #include "ColorPair.h"
+#include "getPairNumberFromColor.h"
+#include "getColorFromPairNumber.h"
 #include "assert.h"
 
 void testNumberToPair(int pairNumber,
-    TelCoColorCoder::MajorColor expectedMajor,
-    TelCoColorCoder::MinorColor expectedMinor);
+    MajorColor expectedMajor,
+    MinorColor expectedMinor);
 
 void testPairToNumber(
-    TelCoColorCoder::MajorColor major,
-    TelCoColorCoder::MinorColor minor,
+    MajorColor major,
+    MinorColor minor,
     int expectedPairNumber);
 
 #endif
